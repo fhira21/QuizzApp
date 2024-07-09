@@ -17,7 +17,6 @@ class _QuizScreenState extends State<QuizScreen> {
 
   @override
   void initState() {
-    // TODO: implement iniState
     super.initState();
     selectedAnswers = List<int?>.filled(widget.quizSet.questions.length, null);
   }
@@ -102,9 +101,9 @@ class _QuizScreenState extends State<QuizScreen> {
                         fontSize: 22,
                         fontWeight: FontWeight.bold,
                       ),
-                    ),
+                    ), //pertanyaan
                     SizedBox(
-                      height: 20,
+                      height: 15,
                     ),
                     ...currentQuestions.options.asMap().entries.map((entry) {
                       final index = entry.key;
@@ -117,7 +116,7 @@ class _QuizScreenState extends State<QuizScreen> {
                         },
                         child: Container(
                           padding:
-                              EdgeInsets.symmetric(vertical: 15, horizontal: 5),
+                              EdgeInsets.symmetric(vertical: 15, horizontal: 10),
                           margin: EdgeInsets.symmetric(vertical: 8),
                           decoration: BoxDecoration(
                             color:
@@ -131,7 +130,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                   ? Colors.indigo
                                   : Colors.grey,
                             ),
-                            borderRadius: BorderRadius.circular(25),
+                            borderRadius: BorderRadius.circular(20),
                           ),
                           child: Center(
                             child: Text(
@@ -143,7 +142,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                     ? Colors.white
                                     : Colors.black,
                                 fontWeight: FontWeight.w500,
-                                fontSize: 16,
+                                fontSize: 15,
                               ),
                             ),
                           ),

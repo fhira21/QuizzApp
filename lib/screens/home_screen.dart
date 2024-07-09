@@ -56,7 +56,7 @@ class HomeScreen extends StatelessWidget {
                 shrinkWrap: true,
                 physics: NeverScrollableScrollPhysics(),
                 itemCount: Data.categories.length,
-                padding: EdgeInsets.all(20),
+                padding: EdgeInsets.all(5),
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
                   childAspectRatio:
@@ -94,7 +94,7 @@ class HomeScreen extends StatelessWidget {
                           Text(
                             Category.name,
                             style: TextStyle(
-                              fontSize: 22,
+                              fontSize: 20,
                               color: Colors.black.withOpacity(0.6),
                               fontWeight: FontWeight.w600,
                             ),
