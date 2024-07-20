@@ -56,10 +56,22 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "flutter_signin_button",
+      "rootUri": "file:///C:/Users/fhira/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_signin_button-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///C:/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.3"
+    },
+    {
+      "name": "font_awesome_flutter",
+      "rootUri": "file:///C:/Users/fhira/AppData/Local/Pub/Cache/hosted/pub.dev/font_awesome_flutter-9.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "leak_tracker",
@@ -170,7 +182,7 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2024-07-03T13:02:34.744117Z",
+  "generated": "2024-07-20T03:15:22.880854Z",
   "generator": "pub",
   "generatorVersion": "3.4.1",
   "flutterRoot": "file:///C:/flutter",

@@ -51,7 +51,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 50),
+              SizedBox(height: 70),
               GridView.builder(
                 shrinkWrap: true,
                 physics: NeverScrollableScrollPhysics(),
@@ -86,15 +86,15 @@ class HomeScreen extends StatelessWidget {
                             padding: EdgeInsets.all(10),
                             child: Image.asset(
                               Category.image,
-                              height: 90,
-                              width: 90,
+                              height: 100,
+                              width: 100,
                             ),
                           ),
                           SizedBox(height: 10),
                           Text(
                             Category.name,
                             style: TextStyle(
-                              fontSize: 20,
+                              fontSize: 17,
                               color: Colors.black.withOpacity(0.6),
                               fontWeight: FontWeight.w600,
                             ),

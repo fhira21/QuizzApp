@@ -58,7 +58,7 @@ class _QuizScreenState extends State<QuizScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SizedBox(height: 35),
+              SizedBox(height: 40),
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 15),
                 child: Row(
@@ -70,7 +70,7 @@ class _QuizScreenState extends State<QuizScreen> {
                       child: Icon(
                         Icons.arrow_back_ios,
                         color: Colors.white,
-                        size: 30,
+                        size: 20,
                       ),
                     ),
                     Text(
@@ -98,7 +98,7 @@ class _QuizScreenState extends State<QuizScreen> {
                     Text(
                       currentQuestions.question,
                       style: TextStyle(
-                        fontSize: 22,
+                        fontSize: 20,
                         fontWeight: FontWeight.bold,
                       ),
                     ), //pertanyaan

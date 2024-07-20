@@ -29,7 +29,7 @@ class CategorySetScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SizedBox(height: 35),
+              SizedBox(height: 40),
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 15),
                 child: Row(

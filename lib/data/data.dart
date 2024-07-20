@@ -3,322 +3,414 @@ import 'package:quizz_project/model/model.dart';
 class Data {
   static List<Category> categories = [
     Category(
-      name: 'Wawasan Negara',
+      name: 'Sejarah Indonesia',
       image: 'assets/Indonesia.jpg',
       quizSets: [
         QuizSet(
-          name: 'Kuis wawasan Indonesia 2',
+          name: 'Kuis Sejarah Indonesia 1',
           questions: [
             Question(
-              'Apa ibu kota negara Indonesia?',
-              ['Surabaya', 'Jakarta', 'Bandung', 'Yogyakarta'],
-              1,
-            ),
-            Question(
-              'Apa nama pulau terbesar di Indonesia?',
-              ['Sumatera', 'Jawa', 'Kalimantan', 'Sulawesi'],
-              2,
-            ),
-            Question(
-              'Siapa presiden pertama indonesia?',
-              ['Soeharto', 'Joko Widodo', 'B.J. Habibi', 'Soekarno'],
-              3,
-            ),
-            Question(
-              'Apa nama mata uang Indonesia',
-              ['Ringgit', 'Rupiah', 'Dolar', 'Baht'],
-              1,
-            ),
-            Question(
-              'Apa lambang negara indonesia?',
+              'Siapa yang memimpin delegasi Indonesia pada Konferensi Meja Bundar di Den Haag?',
               [
-                'Garuda Pancasila',
-                'Bendera Merah Putih',
-                'Sumpah Pemuda',
-                'Monumen Nasional'
-              ],
-              0,
-            ),
-          ],
-        ),
-        QuizSet(
-          name: 'Kuis Wawasan Indonesia 2',
-          questions: [
-            Question(
-              'Apa nama lagu kebangsaan indonesia?',
-              [
-                'Indonesia Pusaka',
-                'Rayuan Pulau Kelapa',
-                'Indonesia Raya',
-                'Tanah Airku'
-              ],
-              2,
-            ),
-            Question(
-              'Pulau Bali terkenal dengan sebutan apa?',
-              [
-                'Pulai Seribu Pura',
-                'Pulau Seribu Masjid',
-                'Pulau Rempah',
-                'Pulau Dewata'
-              ],
-              3,
-            ),
-            Question(
-              'Apa nama candi Buddha terbesar di indonesia?',
-              [
-                'Candi Borobudur',
-                'Candi Prambanan',
-                'Candi Mendut',
-                'Candi Pawon'
-              ],
-              0,
-            ),
-            Question(
-              'Siapa tokoh proklamator kemerdekaan indonesia selain Soekarno?',
-              [
+                'Soekarno',
                 'Mohammad Hatta',
-                'Sutan Sjahrir',
-                'Ahmad Yani',
-                'Jendral Sudirman'
+                'Ali Sastroamidjojo',
+                'Sutan Sjahrir'
               ],
-              0,
+              1,
             ),
             Question(
-              'Apa nama gunung tertinggi di indonesia',
+              'Apa nama peristiwa di mana PKI melancarkan pemberontakan pada tahun 1926-1927?',
               [
-                'Gunung Merapi',
-                'Gunung Rinjani',
-                'Gunung Semeru',
-                'Puncak Jaya'
+                'Pemberontakan Madiun',
+                'Pemberontakan PKI',
+                'Pemberontakan PRRI',
+                'Pemberontakan DI/TII'
+              ],
+              1,
+            ),
+            Question(
+              'Siapa gubernur jenderal Belanda yang memimpin ekspedisi militer untuk menaklukkan Gowa pada tahun 1667?',
+              [
+                'Jan Pieterszoon Coen',
+                'Cornelis de Houtman',
+                'Herman Willem Daendels',
+                'Cornelis Speelman'
               ],
               3,
             ),
-          ],
-        ),
-      ],
-    ),
-
-    Category(
-      name: 'Buah-buahan',
-      image: 'assets/Buah-buahan.jpg',
-      quizSets: [
-        QuizSet(
-          name: 'Tebak Buah-Buahan 1',
-          questions: [
             Question(
-              'Buah apa yang warnanya kuning dan rasanya manis?',
-              ['Pisang', 'Stroberi', 'Apel', 'Jeruk'],
+              'Apa nama kerajaan di Kalimantan yang mengalami masa keemasan pada abad ke-14?',
+              [
+                'Kerajaan Kutai',
+                'Kerajaan Banjar',
+                'Kerajaan Tanjungpura',
+                'Kerajaan Sambas'
+              ],
               0,
             ),
             Question(
-              'Buah apa yang sering disebut raja buah?',
-              ['Mangga', 'Durian', 'Kelapa', 'Nanas'],
+              'Apa nama kode untuk operasi militer Belanda yang menyerang Yogyakarta pada tahun 1948?',
+              [
+                'Operatie Product',
+                'Operatie Kraai',
+                'Operatie Gagak',
+                'Operatie Lotus'
+              ],
               1,
             ),
-            Question(
-              'Buah apa yang memiliki banyak biji kecil-kecil di dalamnya?',
-              ['Apel', 'Kiwi', 'Semangka', 'Anggur'],
-              2,
-            ),
-            Question(
-              'Buah apa yang sering digunakan sebagai bahan utama salad buah?',
-              ['Melon', 'Mangga', 'Anggur', 'Nanas'],
-              0,
-            ),
-            Question(
-              'Buah apa yang memiliki bentuk bulat kecil dan sering digunakan untuk jus?',
-              ['Apel', 'Pisang', 'Jeruk', 'Delima'],
-              2,
-            ),
           ],
         ),
         QuizSet(
-          name: 'Tebak Buah-Buahan 2',
+          name: 'Kuis Sejarah Indonesia 2',
           questions: [
             Question(
-              'Buah apa yang bisa dimakan beserta kulitnya?',
-              ['Mangga', 'Nanas', 'Kiwi', 'Apel'],
+              'Apa nama perjanjian yang mengakhiri penjajahan Belanda atas Indonesia pada tahun 1949?',
+              [
+                'Perjanjian Linggarjati',
+                'Perjanjian Renville',
+                'Perjanjian Roem-Roijen',
+                'Konferensi Meja Bundar'
+              ],
               3,
             ),
             Question(
-              'Buah apa yang identik dengan perayaan Halloween?',
-              ['Labu', 'Semangka', 'Anggur', 'Apel'],
-              0,
+              'Apa nama organisasi pemuda yang pertama kali mengikrarkan Sumpah Pemuda pada tahun 1928?',
+              [
+                'Jong Sumatranen Bond',
+                'Jong Java',
+                'Jong Indonesia',
+                'Perhimpunan Indonesia'
+              ],
+              2,
             ),
             Question(
-              'Buah apa yang sering diidentikan dengan simbol cinta?',
-              ['Pisang', 'Ceri', 'Mangga', 'Durian'],
+              'Siapa raja terkenal dari Kerajaan Majapahit yang dikenal karena menguasai Nusantara?',
+              ['Ken Arok', 'Airlangga', 'Hayam Wuruk', 'Jayanegara'],
+              2,
+            ),
+            Question(
+              'Apa nama perang besar di Bali pada abad ke-19 melawan kolonial Belanda?',
+              [
+                'Perang Diponegoro',
+                'Perang Padri',
+                'Perang Puputan',
+                'Perang Jawa'
+              ],
+              2,
+            ),
+            Question(
+              'Siapa yang dikenal sebagai pahlawan wanita dari Aceh yang memimpin perang melawan Belanda?',
+              [
+                'R.A. Kartini',
+                'Cut Nyak Dhien',
+                'Martha Christina Tiahahu',
+                'Dewi Sartika'
+              ],
               1,
             ),
-            Question(
-              'Buah apa yang sering digunakan sebagai bahan utama rujak?',
-              ['Mangga', 'Nanas', 'Apel', 'Semangka'],
-              0,
-            ),
-            Question(
-              'Buah apa yang dikenal sebagai buah tropis dengan duri di kulitnya?',
-              ['Pisang', 'Nanas', 'Kelapa', 'Durian'],
-              1,
-            ),
-          ],
-        ),
-        QuizSet(
-          name: 'Tebak Buah-Buahan 3',
-          questions: [
-            // Tambahkan lebih banyak pertanyaan jika diperlukan
           ],
         ),
       ],
     ),
     Category(
-      name: 'Wawasan Dunia',
+      name: 'Perang Dunia 2',
       image: 'assets/dunia.jpg',
       quizSets: [
         QuizSet(
-          name: 'Kuis Wawasan Dunia 1',
+          name: 'Kuis Perang Dunia 1',
           questions: [
             Question(
-              'Ibukota jepang adalah?',
-              ['Beijing', 'Seoul', 'Tokyo', 'Bangkok'],
-              2,
-            ),
-            Question(
-              'Planet terbesar di tata Surya adalah?',
-              ['Mars', 'Bumi', 'Jupiter', 'Saturnus'],
-              2,
-            ),
-            Question(
-              'Penulis novel "Harry Potter" adalah?',
+              'Siapa yang menjadi pemimpin Jerman selama Perang Dunia II?',
               [
-                'J.R.R. Tolkien',
-                'J.K. Rowling',
-                'George R.R. Martin',
-                'Stephen King'
-              ],
-              1,
-            ),
-            Question(
-              'Presiden pertama Amerika Serikat?',
-              [
-                'Thomas Jefferson',
-                'John Adams',
-                'George Washington',
-                'Abraham Lincoln'
+                'Joseph Stalin',
+                'Winston Churchill',
+                'Adolf Hitler',
+                'Franklin D. Roosevelt'
               ],
               2,
             ),
             Question(
-              'Benua Terbesar di Dunia adalah?',
-              ['Afrika', 'Asia', 'Eropa', 'Australia'],
+              'Apa nama operasi invasi sekutu ke Normandia?',
+              [
+                'Operasi Torch',
+                'Operasi Market Garden',
+                'Operasi Overlord',
+                'Operasi Barbarossa'
+              ],
+              2,
+            ),
+            Question(
+              'Apa nama perjanjian yang mengakhiri Perang Dunia II di Eropa?',
+              [
+                'Perjanjian Versailles',
+                'Perjanjian Potsdam',
+                'Perjanjian Kapitulasi Jerman',
+                'Perjanjian Paris'
+              ],
+              2,
+            ),
+            Question(
+              'Apa nama kode untuk pemboman Pearl Harbor oleh Jepang?',
+              ['Operasi Z', 'Operasi A', 'Operasi X', 'Operasi Y'],
+              0,
+            ),
+            Question(
+              'Siapa yang menandatangani surat penyerahan tanpa syarat Jerman pada tahun 1945?',
+              [
+                'Hermann Göring',
+                'Wilhelm Keitel',
+                'Alfred Jodl',
+                'Karl Dönitz'
+              ],
               1,
             ),
           ],
         ),
         QuizSet(
-          name: 'Kuis Wawasan Dunia 2',
+          name: 'Kuis Perang Dunia 2',
           questions: [
             Question(
-              'Sungai terpanjang di dunia adalah?',
-              ['Sungai nil', 'SUngai Amazon', 'SUngai Mississippi', 'Sungai Yangtze'],
+              'Di kota mana konferensi diadakan untuk merancang strategi akhir Perang Dunia II?',
+              ['Potsdam', 'Casablanca', 'Yalta', 'Tehran'],
+              2,
+            ),
+            Question(
+              'Apa nama pesawat yang menjatuhkan bom atom di Hiroshima?',
+              ['Enola Gay', 'Bockscar', 'Memphis Belle', 'Spirit of St. Louis'],
               0,
             ),
             Question(
-              'Bahasa yang paling banyak digunakan di dunia adalah?',
-              ['Inggris', 'Mandarin', 'Spanyol', 'Hindi'],
+              'Siapa panglima tertinggi pasukan sekutu di Eropa selama Perang Dunia II?',
+              [
+                'George Patton',
+                'Douglas MacArthur',
+                'Dwight D. Eisenhower',
+                'Bernard Montgomery'
+              ],
+              2,
+            ),
+            Question(
+              'Apa nama kode untuk operasi pendaratan sekutu di Afrika Utara?',
+              [
+                'Operasi Torch',
+                'Operasi Husky',
+                'Operasi Dragoon',
+                'Operasi Avalanche'
+              ],
+              0,
+            ),
+            Question(
+              'Siapa yang menjadi perdana menteri Jepang selama Perang Dunia II?',
+              [
+                'Hideki Tojo',
+                'Fumimaro Konoe',
+                'Kuniaki Koiso',
+                'Shigeru Yoshida'
+              ],
+              0,
+            ),
+          ],
+        ),
+        QuizSet(
+          name: 'Kuis Perang Dunia 3',
+          questions: [
+            Question(
+              'Apa nama kapal perang Inggris yang tenggelam oleh Jepang di perairan Malaya pada tahun 1941?',
+              [
+                'HMS Hood',
+                'HMS Repulse',
+                'HMS Prince of Wales',
+                'HMS Ark Royal'
+              ],
+              2,
+            ),
+            Question(
+              'Siapa yang menjadi kepala Staf Angkatan Darat Amerika Serikat selama Perang Dunia II?',
+              [
+                'Omar Bradley',
+                'George Marshall',
+                'Henry Arnold',
+                'Dwight D. Eisenhower'
+              ],
               1,
             ),
             Question(
-              'Piramida terkenal di mesir terletak di',
-              ['Alexandria', 'Luxor', 'Giza', 'Cairo'],
-              2,
+              'Apa nama kode untuk operasi serangan Jerman terhadap sekutu di Belgia pada tahun 1944?',
+              [
+                'Operasi Cobra',
+                'Operasi Market Garden',
+                'Operasi Bodenplatte',
+                'Operasi Herbstnebel'
+              ],
+              3,
             ),
+          ],
+        ),
+      ],
+    ),
+    Category(
+      name: 'Revolusi Industri',
+      image: 'assets/dunia.jpg',
+      quizSets: [
+        QuizSet(
+          name: 'Kuis Revolusi Industri 1',
+          questions: [
             Question(
-              'Penemu Telepon Adalah?',
-              ['Thomas Edison', 'Nikola Tesla', 'Alexander Graham Bell', 'Samuel Morse'],
-              2,
-            ),
+                    'Di negara mana Revolusi Industri pertama kali terjadi?',
+                    ['Prancis', 'Jerman', 'Inggris', 'Amerika Serikat'],
+                    2,
+                ),
+                Question(
+                    'Apa mesin terkenal yang diciptakan oleh James Watt?',
+                    ['Mesin pemintal', 'Mesin cetak', 'Mesin uap', 'Mesin tenun'],
+                    2,
+                ),
+                Question(
+                    'Kapan kira-kira Revolusi Industri dimulai?',
+                    ['Abad ke-16', 'Abad ke-17', 'Abad ke-18', 'Abad ke-19'],
+                    2,
+                ),
+                Question(
+                    'Apa nama sistem produksi yang menggunakan jalur perakitan untuk pertama kalinya?',
+                    ['Sistem rumah tangga', 'Sistem gilda', 'Sistem pabrik', 'Sistem feudal'],
+                    2,
+                ),
+                Question(
+                    'Siapa penemu mesin pemintal "Spinning Jenny"?',
+                    ['Richard Arkwright', 'Samuel Crompton', 'James Hargreaves', 'Eli Whitney'],
+                    2,
+                ),
+          ],
+        ),
+        QuizSet(
+          name: 'Kuis Revolusi Industri 2',
+          questions: [
             Question(
-              'Bentuk Pemerintahan di Inggris adalah?',
-              ['Republik', 'Monarki Absolut', 'Monarki Konstitusional', 'Federasi'],
-              2,
-            ),
+                    'Apa nama sistem produksi yang didirikan oleh Henry Ford?',
+                    ['Taylorisme', 'Fordisme', 'Toyotisme', 'Sloanisme'],
+                    1,
+                ),
+                Question(
+                    'Apa bahan bakar utama yang digunakan dalam mesin uap selama Revolusi Industri?',
+                    ['Kayu', 'Minyak bumi', 'Batu bara', 'Gas alam'],
+                    2,
+                ),
+                Question(
+                    'Apa dampak utama Revolusi Industri pada struktur sosial masyarakat?',
+                    ['Penghapusan kelas sosial', 'Munculnya kelas pekerja dan kelas menengah', 'Penurunan populasi kota', 'Kembalinya masyarakat agraris'],
+                    1,
+                ),
+                Question(
+                    'Apa nama alat yang digunakan untuk memisahkan biji kapas dari serat kapas?',
+                    ['Mesin tenun', 'Mesin pemintal', 'Mesin gin kapas', 'Mesin uap'],
+                    2,
+                ),
+                Question(
+                    'Siapa penemu proses pembuatan baja dari besi kasar yang dikenal dengan proses Bessemer?',
+                    ['Andrew Carnegie', 'Henry Bessemer', 'James Watt', 'Thomas Newcomen'],
+                    1,
+                ),
           ],
         ),
         QuizSet(
           name: 'Kuis Wawasan Dunia 3',
           questions: [
-            // Add questions for Quiz Set 3 of Python
+            Question(
+                    'Apa nama kode untuk undang-undang perburuhan anak pertama di Inggris pada tahun 1833?',
+                    ['Factory Act', 'Mines Act', 'Ten Hours Act', 'Labour Act'],
+                    0,
+                ),
+                Question(
+                    'Apa nama kapal yang membawa emigran pertama ke Amerika Serikat selama Revolusi Industri?',
+                    ['Mayflower', 'Titanic', 'Lusitania', 'Britannia'],
+                    0,
+                ),
+                Question(
+                    'Apa nama asosiasi buruh pertama yang terbentuk di Inggris pada tahun 1834?',
+                    ['Chartists', 'Luddites', 'Grand National Consolidated Trades Union', 'Friendly Society'],
+                    2,
+                ),
+                Question(
+                    'Siapa yang mengembangkan konsep lokomotif uap yang efisien pertama kali?',
+                    ['Richard Trevithick', 'George Stephenson', 'Robert Stephenson', 'Thomas Savery'],
+                    0,
+                ),
+                Question(
+                    'Apa nama undang-undang yang membatasi jam kerja anak di pabrik kapas pada tahun 1819?',
+                    ['Cotton Mills Act', 'Apprentices Act', 'Child Labour Act', 'Factory Regulation Act'],
+                    0,
+                ),
           ],
         ),
       ],
     ),
     Category(
-      name: 'Olahraga',
-      image: 'assets/asean.jpeg',
+      name: 'Kekaisaran Romawi',
+      image: 'assets/colloseum.jpeg',
       quizSets: [
         QuizSet(
-          name: 'Kuis Sepak Bola',
+          name: 'Kuis Kekaisaran Romawi 1',
           questions: [
             Question(
-              'Berapa pemain yang ada dalam satu tim sepak bola?',
-              ['11 pemain', '10 pemain', '12 pemain', '13 pemain'],
-              0,
-            ),
-            Question(
-              'Olahraga apa yang dikenal dengan istilah "slam dunk"?',
-              ['Basket', 'Sepak Bola', 'Tenis', 'Baseball'],
-              0,
-            ),
-            Question(
-              'Berapa set yang diperlukan untuk memenangkan pertandingan tenis pria di Grand Slam?',
-              ['2 set', '3 set', '4 set', '5 set'],
-              3,
-            ),
-            Question(
-              'Negara mana yang terkenal dengan sebutan "Tim Samba" dalam sepak bola?',
-              ['Argentina', 'Brazil', 'Spanyol', 'Italia'],
-              1,
-            ),
-            Question(
-              'Apa nama kejuaraan tahunan tenis di Inggris yang terkenal?',
-              ['Australian Open', 'French Open', 'US Open', 'Wimbledon'],
-              3,
-            ),
+                    'Siapakah kaisar Romawi yang terkenal dengan reformasi administratifnya yang membagi Kekaisaran Romawi menjadi dua bagian: Romawi Barat dan Romawi Timur?',
+                    ['Diocletian', 'Julius Caesar', 'Augustus', 'Trajan'],
+                    0,
+                ),
+                Question(
+                    'Apa yang merupakan nama pertempuran terkenal di mana Julius Caesar mengalahkan Pompey pada tahun 48 SM, mengamankan kekuasaannya atas Republik Romawi?',
+                    ['Pertempuran Actium', 'Pertempuran Pharsalus', 'Pertempuran Alesia', 'Pertempuran Thapsus'],
+                    1,
+                ),
+                Question(
+                    'Apa yang merupakan nama pertempuran di mana Romawi mengalahkan Kekaisaran Kartago dan menandai akhir Perang Punic Ketiga pada tahun 146 SM?',
+                    ['Pertempuran Cannae', 'Pertempuran Zama', 'Pertempuran Carthage', 'Pertempuran Metaurus'],
+                    1,
+                ),
+                Question(
+                    'Siapakah kaisar Romawi yang membangun Pantheon di Roma?',
+                    ['Nero', 'Hadrian', 'Augustus', 'Trajan'],
+                    1,
+                ),
+                Question(
+                    'Apa yang merupakan nama kaisar Romawi yang memerintahkan pembangunan Tembok Hadrianus di Britania Raya?',
+                    ['Augustus', 'Claudius', 'Hadrian', 'Marcus Aurelius'],
+                    2,
+                ),
           ],
         ),
         QuizSet(
-          name: 'Kuis Lari',
+          name: 'Kuis Kekaisaran Romawi 2',
           questions: [
             Question(
-              'Berapa panjang lintasan lari pada perlombaan lari jarak 400 meter?',
-              ['200 meter', '300 meter', '400 meter', '500 meter'],
-              2,
-            ),
-            Question(
-              'Apa nama olahraga yang menggunakan shuttlecock?',
-              ['Tenis', 'Badminton', 'Squash', 'Pingpong'],
-              1,
-            ),
-            Question(
-              'Berapa pemain dalam satu tim bola basket?',
-              ['4 pemain', '5 pemain', '6 pemain', '7 pemain'],
-              1,
-            ),
-            Question(
-              'Siapa atlet yang dikenal sebagai "Manusia Tercepat di Dunia"?',
-              ['Usain Bolt', 'Michael Phelps', 'Carl Lewis', 'Mo Farah'],
-              0,
-            ),
-            Question(
-              'Apa nama alat yang digunakan untuk memukul bola dalam permainan baseball?',
-              ['Raket', 'Tongkat', 'Paddle', 'Bet'],
-              3,
-            ),
+                    'Siapakah kaisar Romawi yang dijuluki "Kaisar Filosof" dan menulis "Meditations"?',
+                    ['Nero', 'Marcus Aurelius', 'Augustus', 'Vespasian'],
+                    1,
+                ),
+                Question(
+                    'Apa yang merupakan nama kaisar Romawi yang mengeluarkan Edik Milan pada tahun 313 M, memberikan toleransi agama kepada umat Kristen?',
+                    ['Constantine the Great', 'Augustus', 'Nero', 'Trajan'],
+                    0,
+                ),
+                Question(
+                    'Siapakah kaisar Romawi yang menaklukkan Mesir dan mendirikan kota baru, Alexandria, di sana?',
+                    ['Julius Caesar', 'Augustus', 'Nero', 'Alexander the Great'],
+                    0,
+                ),
+                Question(
+                    'Apa yang merupakan nama kaisar Romawi yang membangun Kolliseum (Colosseum) di Roma?',
+                    ['Vespasian', 'Augustus', 'Trajan', 'Nero'],
+                    0,
+                ),
+                Question(
+                    'Siapakah kaisar Romawi yang digulingkan oleh Odoacer pada tahun 476 M, menandai berakhirnya Kekaisaran Romawi Barat?',
+                    ['Romulus Augustulus', 'Julius Nepos', 'Constantine III', 'Valentinian III'],
+                    0,
+                ),
           ],
         ),
         QuizSet(
-          name: 'Kuis Olahraga 3',
+          name: 'Kuis Kekaisaran Romawi 3',
           questions: [
             // Tambahkan lebih banyak pertanyaan jika diperlukan
           ],

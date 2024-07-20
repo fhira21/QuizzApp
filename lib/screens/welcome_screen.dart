@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quizz_project/screens/home_screen.dart';
+import 'package:quizz_project/screens/login_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -27,19 +28,7 @@ class WelcomeScreen extends StatelessWidget {
                 borderRadius: BorderRadius.only(
                   bottomRight: Radius.circular(70),
                 ),
-              ),
-              /*child: Center(
-                child: Image.asset(
-                  "assets/books.png",
-                  scale: 0.8,
-                  errorBuilder: (context, error, stackTrace) {
-                    return Text(
-                      'Image not found',
-                      style: TextStyle(color: Colors.red, fontSize: 20),
-                    );
-                  },
-                ),
-              ),*/
+              )
             ),
             Align(
               alignment: Alignment.bottomCenter,
@@ -113,7 +102,7 @@ class WelcomeScreen extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => HomeScreen(),
+                              builder: (context) => LoginScreen(),
                             ),
                           );
                         },
