@@ -251,7 +251,7 @@ class Data {
     ),
     Category(
       name: 'Revolusi Industri',
-      image: 'assets/dunia.jpg',
+      image: 'assets/jamesswatt.jpg',
       quizSets: [
         QuizSet(
           name: 'Kuis Revolusi Industri 1',
@@ -314,7 +314,7 @@ class Data {
           ],
         ),
         QuizSet(
-          name: 'Kuis Wawasan Dunia 3',
+          name: 'Kuis Revolusi Industri 3',
           questions: [
             Question(
                     'Apa nama kode untuk undang-undang perburuhan anak pertama di Inggris pada tahun 1833?',
