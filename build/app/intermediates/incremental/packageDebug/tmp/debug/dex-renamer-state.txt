@@ -1,4 +1,4 @@
-#Sat Jul 20 10:42:29 WIB 2024
+#Sat Jul 20 11:07:39 WIB 2024
 base.0=D\:\\hdd\\kuliah\\Semester 6\\Teknologi Mobile\\Project Akhir\\QuizzApp\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\hdd\\kuliah\\Semester 6\\Teknologi Mobile\\Project Akhir\\QuizzApp\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=D\:\\hdd\\kuliah\\Semester 6\\Teknologi Mobile\\Project Akhir\\QuizzApp\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex

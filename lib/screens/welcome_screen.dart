@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:quizz_project/screens/home_screen.dart';
 import 'package:quizz_project/screens/login_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
