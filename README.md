@@ -1,21 +1,57 @@
-# PROJECT AKHIR TEKNOLOGI MOBILE
+# 📱 Quizz App  
 
+Aplikasi **Quizz Mobile** adalah platform interaktif untuk menjawab pertanyaan seputar berbagai kategori.  
+Dibuat untuk memberikan pengalaman belajar yang menyenangkan sekaligus menantang dengan tampilan modern dan ramah pengguna.  
 
-## UI/UX 
+---
 
-NAMA    : ANNA MAULINA
+## 🎯 Tujuan  
+Menyediakan aplikasi kuis yang:  
+- Mudah digunakan  
+- Responsif di berbagai perangkat  
+- Menarik dengan desain UI/UX modern  
 
-NIM     : 2111016050
+---
 
-## AUTHOR BACKEND / DATA MODEL
+## 🚀 Fitur Utama  
+- 🔐 Login & Register pengguna  
+- 🏷️ Pilihan kategori kuis  
+- 🏆 Sistem skor & leaderboard  
+- 📊 Riwayat hasil kuis  
+- 🎨 Desain UI/UX yang ramah pengguna  
 
-NAMA    : FHIRA TRIANA MAULANI
+---
 
-NIM     : 2100016012
+## 🛠️ Teknologi yang Digunakan  
+- **Frontend/Mobile**: React Native (atau Flutter, sesuaikan dengan projectmu)  
+- **Backend**: Node.js + Express (jika ada backend)  
+- **Database**: MongoDB / MySQL / Firebase (sesuaikan)  
+- **Version Control**: Git & GitHub  
 
+---
 
-## AUTHOR FRONTEND
+## 📥 Instalasi & Menjalankan Project  
 
-NAMA    : EKI RISWAN NAWAWI
+1. Clone repository:  
+   ```bash
+   git clone https://github.com/username/quizz-app.git
+   cd quizz-app
+   
+2. Install dependencies
+   ```bash
+   npm install
+   
+4. jalankan aplikasi di emulator/device
+   ```bash
+   npx react-native run-android
+   # atau
+   npx react-native run-ios
 
-NIM     : 2200016084
+   
+## 👨‍💻 Tim Pengembang
+
+Developer: [Fhira Triana Maulani]
+
+System Analyst: [ANNA MAULINA], [Nama Rekan 2]
+
+UI/UX Designer: [EKI RISWAN NAWAWI]
