@@ -55,3 +55,8 @@ Developer: [Fhira Triana Maulani]
 System Analyst: [ANNA MAULINA], [Nama Rekan 2]
 
 UI/UX Designer: [EKI RISWAN NAWAWI]
+
+
+
+![GitHub stars](https://img.shields.io/github/stars/fhira21/QuizzApp?style=social)
+![GitHub forks](https://img.shields.io/github/forks/fhira21/QuizzApp?style=social)
